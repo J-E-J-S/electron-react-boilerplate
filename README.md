@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+1. git clone https://github.com/J-E-J-S/electron-react-boilerplate
+2. npm install 
+3. npm run start 
+
 ## Available Scripts
 
 In the project directory, you can run:
