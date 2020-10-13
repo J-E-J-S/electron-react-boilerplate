@@ -2,13 +2,13 @@
   "name": "electron-react-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "description":"Boilerplate for an Electron-React App.",
-  "author":"James Sanders",
-  "build":{
-      "appId": "com.electron-react-boilerplate"
+  "description": "An Open Source Lab Notebook.",
+  "author": "James Sanders",
+  "build": {
+    "appId": "com.helix-electron"
   },
-  "main":"public/electron.js",
-  "homepage":"./",
+  "main": "public/electron.js",
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -29,9 +29,9 @@
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
     "electron-build": "electron-builder",
-    "release" : "yarn react-build && electron-builder --publish=always",
+    "release": "yarn react-build && electron-builder --publish=always",
     "build": "yarn react-build && yarn electorn-build",
-    "start":"concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
     "extends": "react-app"
