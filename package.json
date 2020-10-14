@@ -21,7 +21,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "rich-text-editor": "^6.0.3",
+    "rich-markdown-editor": "^11.0.2",
     "styled-components": "^5.2.0",
     "wait-on": "^5.2.0"
   },
