@@ -2,10 +2,10 @@
   "name": "electron-react-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "description": "An Open Source Lab Notebook.",
+  "description": "Boiler Plate for a React-Electron App.",
   "author": "James Sanders",
   "build": {
-    "appId": "com.helix-electron"
+    "appId": "com.electron-react-boilerplate"
   },
   "main": "public/electron.js",
   "homepage": "./",

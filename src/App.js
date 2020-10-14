@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {Button} from './Notepad/Note.js';
+
 
 function App() {
   return (
-      <Button/>
+      <h1>Hello World!</h1>
 
   );
 }
