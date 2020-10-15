@@ -1,11 +1,11 @@
 {
-  "name": "helix-electron",
+  "name": "electron-react-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "description": "An Open Source Laboratory Notebook.",
+  "description": "electron-react-boilerplate",
   "author": "James Sanders",
   "build": {
-    "appId": "com.helix-electron"
+    "appId": "com.electron-react-boilerplate"
   },
   "main": "public/electron.js",
   "homepage": "./",
@@ -21,8 +21,6 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
-    "rich-markdown-editor": "^11.0.2",
-    "styled-components": "^5.2.0",
     "wait-on": "^5.2.0"
   },
   "scripts": {
